@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render 'Typography' element 1`] = `
+Array [
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  border: none;
+  box-shadow: 1px 1px 3px black;
+  padding: 5px 20px;
+  background: linear-gradient(0.25turn,#FF5733,#FD9883);
+}
+
+.c3:active {
+  opacity: 0.8;
+  -webkit-animation: fade 200ms ease-out forwards;
+  animation: fade 200ms ease-out forwards;
+}
+
+.c2 {
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      className="c1"
+    >
+      <text
+        className="c2"
+        color="white"
+      >
+        Welcome
+      </text>
+      <button
+        className="c3"
+      >
+        <text
+          className="c2"
+          color="white"
+        >
+          more about
+        </text>
+      </button>
+    </div>
+  </div>,
+]
+`;
