@@ -8,7 +8,7 @@ export const Container = styled.div<IContainer>`
         case "sm":
             return "940px";
         default:
-            return "";
+            return "100%";
       }
   }};
 `
